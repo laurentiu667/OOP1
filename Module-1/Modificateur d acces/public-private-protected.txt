@@ -1,0 +1,11 @@
+public : Les membres déclarés comme public sont accessibles depuis n'importe où. 
+Ils peuvent être utilisés par n'importe quelle classe.
+
+private : Les membres déclarés comme private sont accessibles uniquement à l'intérieur de la classe où ils sont définis. 
+Ils ne sont pas visibles depuis l'extérieur de la classe.
+
+protected : Les membres déclarés comme protected sont accessibles à la classe elle-même, 
+aux classes du même package et aux sous-classes (héritage).
+
+Aucun modificateur (package-private) : Si aucun modificateur d'accès n'est spécifié, le membre est accessible uniquement aux classes du même package.
+On l'appelle parfois "package-private" ou "friendly".
